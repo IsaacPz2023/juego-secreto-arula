@@ -53,7 +53,6 @@ function condicionesIniciales() {
 }
 
 function verificarNumeroSorteados() {
-  console.log(numeroSorteados);
   if (numeroSorteados.length === maximoIntento) {
     asignarTextoElemento("p", "Ya se sortearon todos los número posibles");
     document.getElementById("intentar").setAttribute("disabled", "true");
